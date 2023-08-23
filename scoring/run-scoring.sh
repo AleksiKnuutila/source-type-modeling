@@ -15,7 +15,7 @@ python3 score_new_articles.py \
   --quote-type-model alex2awesome/quote-type-sentence-model \
   --quote-type-tokenizer roberta-base \
   --do-source-type-classification \
-  --source-type-tokenizer roberta-baseiend \
+  --source-type-tokenizer roberta-base \
   --source-type-model alex2awesome/source-type-model \
   --do-affiliation-classification \
   --affiliation-model alex2awesome/source-affiliation-model \

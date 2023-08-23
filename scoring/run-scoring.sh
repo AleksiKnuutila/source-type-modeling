@@ -1,5 +1,7 @@
+dataset=$1
+
 python3 score_new_articles.py \
-  --dataset-name articles1_3lines.csv \
+  --dataset-name $dataset \
   --id-col-name id \
   --body-col-name content \
   --detection-model alex2awesome/quote-detection__roberta-base-sentence \
